@@ -53,9 +53,6 @@ class Card3 extends StatelessWidget {
                 ],
               ),
             ),
-
-            // TODO 7: Add Center widget with Chip widg0.6t children
-
             Center(
               // 11
               child: Wrap(

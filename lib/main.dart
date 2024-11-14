@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:state_management/fooderlich/home/fooderlich.dart';
 import 'package:state_management/fooderlich/home/utils/fooderlich_theme.dart';
+import 'package:state_management/weather_app/home/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,11 +14,9 @@ class MyApp extends StatelessWidget {
     final theme = FooderlichTheme.dark();
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      // 4
-      title: 'Recipe Calculator',
-      // 5
+      title: 'Weather_App',
       theme: theme,
-      home:  Fooderlich(),
+      home:  HomeScreen(),
     );
   }
 }
